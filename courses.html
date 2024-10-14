@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Available Courses</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Courses</h2>
+        <div class="courses-list">
+            <div class="course-card">
+                <img width="200" src="https://th.bing.com/th/id/OIP.hewryE3nxzTjQtWvXJF1UwHaFq?rs=1&pid=ImgDetMain" >
+                <p>Web Development</p>
+            </div>
+            <div class="course-card">
+                <img width="200" src="https://logicmojo.com/assets/dist/new_pages/images/datasci.jpg" >
+                <p>Data Science</p>
+            </div>
+            <div class="course-card">
+                <img width="200" src="https://www.ceo-review.com/wp-content/uploads/2021/10/Machine-Learning.jpg" >
+                <p>Machine Learning</p>
+            </div>
+            <div class="course-card">
+                <img width="200" src="https://th.bing.com/th/id/OIP.uZHo6ExlWyMWJssm8YYr-wHaEt?rs=1&pid=ImgDetMain" >
+                <p>Graphic Design</p>
+            </div>
+        </div>
+        
+        <h3>Enroll in a Course</h3>
+        <form id="enrollmentForm">
+            <label for="course">Choose a course:</label>
+            <select id="course" required>
+                <option value="">Select a course</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Machine Learning">Machine Learning</option>
+                <option value="Graphic Design">Graphic Design</option>
+            </select>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+            <button type="submit">Enroll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Learning Platform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
